@@ -9,13 +9,4 @@ import static org.hamcrest.CoreMatchers.is;
 @QuarkusTest
 public class PartyResourceTest {
 
-    @Test
-    public void testHelloEndpoint() {
-        given()
-          .when().get("/party")
-          .then()
-             .statusCode(200)
-             .body(is("hello"));
-    }
-
 }
