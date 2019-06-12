@@ -25,9 +25,9 @@ public class PartyResource {
     @GET
     public List<Party> hello() {
       List<Party> parties = new ArrayList<>();
-      parties.add(new Party("Kenneth", "Chamisa"));
-      parties.add(new Party("Kudzai", "Chamisa"));
-      parties.add(new Party("Mukai", "Chamisa"));
+      parties.add(new Party("John", "Doe"));
+      parties.add(new Party("Java", "Champion"));
+      parties.add(new Party("Jerry", "Tom"));
 
       return parties;
     }
